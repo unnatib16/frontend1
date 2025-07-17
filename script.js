@@ -61,7 +61,7 @@ function Storage(theme,language){
         theme:theme,
         language:language,
     }
-    localStorage.setItem("userPrefer"),JSON.stringify(userPrefer)
+    localStorage.setItem("userPrefer",JSON.stringify(userPrefer));s
 }
 
 Storage('dark','en');

@@ -1,0 +1,13 @@
+<?xml version='1.0' emcoding='UTF-8'?>
+<catalog>
+      <book>
+        <title>Learning JavaScript</title>
+        <author>Jane Doe</author>
+        <price>35.50</price>
+      </book>
+      <book>
+        <title>Introduction to Python</title>
+        <author>John Smith</author>
+        <price>40.00</price>
+      </book>
+    </catalog>

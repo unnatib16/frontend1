@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href="style1.css">
+    <title>Form</title>
+</head>
+<body>
+    <div>
+        <form class ='form'>
+            <div class="container">
+            <label>Name : </label>
+            <input type="text" placeholder="name" id="name" required>
+            <br><br>
+            <label>Email : </label>
+            <input type="email" placeholder="email" id="email" required>
+            <br><br>
+            <div class="pass">
+            <label>Password : </label>
+            <input type="password" placeholder="password" id="pass" required>
+            </div>
+            <br><br>
+            <div class="confPass">
+            <label>Confirm Password : </label>
+            <input type="password" placeholder="password" id="confPass" required>
+            </div>
+            <br><br>
+            <p class="status"></p>
+            <button type='submit' class="submit">
+                Submit
+            </button>
+            </div>
+        </form>
+    </div>
+    <script src="script1.js"></script>
+    <script src="util.js"></script>
+</body>
+</html>

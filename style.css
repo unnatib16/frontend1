@@ -27,8 +27,8 @@ body{
     padding :20px;
     border : 2px solid black;
     border-radius: 10px;
-    width :100%
-    max-width: 400px;
+    width :100%;
+    max-width :400px;
 }
 .signup label{
     display: block;
@@ -53,6 +53,4 @@ body{
     background-color: burlywood;
     color:black;
 }
-#link{
-    
-}
+
