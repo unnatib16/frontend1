@@ -1,4 +1,4 @@
-function fetchDataFromAPI() {
+function fetchData() {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
             const success = Math.random() > 0.3; 
@@ -14,7 +14,7 @@ function fetchDataFromAPI() {
 async function getData() {
     try {
         console.log("Fetching data...");
-        const response = await fetchDataFromAPI();
+        const response = await fetchData();
         console.log("Success:", response.data);
     } catch (error) {
         console.error("Error:", error.message);
