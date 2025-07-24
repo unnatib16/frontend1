@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Safe XSS Page</title>
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self';">
+</head>
+<body>
+  <h2>Welcome</h2>
+  <div id="output"></div>
+
+  <script>
+    const userInput = '<scr' + 'ipt>alert("XSS Attack!")</scr' + 'ipt>';
+    document.getElementById("output").innerText = userInput;
+  </script>
+</body>
+</html>
